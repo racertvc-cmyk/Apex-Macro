@@ -43,29 +43,6 @@ pip install pynput
 
 (Note: If you run the script without installing it, the built-in loader will attempt to install it for you automatically!)
 
-Step 3: Run the Script
-
-Start the macro by running:
-
-python tinytask_dark.py
-
-
-🛠️ How to Compile to .exe Yourself
-
-If you prefer using an .exe but want to be absolutely sure of its safety, you can compile the code yourself using your own machine:
-
-Install PyInstaller:
-
-pip install pyinstaller
-
-
-Build the single-file executable:
-
-pyinstaller --onefile --noconsole tinytask_dark.py
-
-
-Once completed, your custom-built executable will be waiting safely inside the newly created dist folder!
-
 📜 License
 
 This project is licensed under the MIT License - feel free to use, modify, and distribute it!
